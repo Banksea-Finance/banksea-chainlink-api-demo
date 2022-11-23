@@ -17,6 +17,7 @@ Create a .env file, and fill it with the privatekey of your wallet and infura ke
 PRIVATE_KEY=YOUR-PRIVATE-KEY
 INFURA_KEY=YOUR-INFURA-KEY
 ```
+## Compile & Deploy
 Compile the contract:
 ```
 npx hardhat compile
@@ -27,4 +28,5 @@ npx hardhat run .\scripts\deploy.ts --network goerli
 ```
 Record the address of APIConsumer and fund some LINK to the address.
 
-Finally, you can call the **requestFloor** interface on the contract. After a while, you can check the **floor** value on it.
+## Test
+You can call the **requestFloor** interface on the contract. After a while, you can check the **floor** value on it.
