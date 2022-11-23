@@ -17,7 +17,7 @@ Create a .env file, and fill it with the privatekey of your wallet and infura ke
 PRIVATE_KEY=YOUR-PRIVATE-KEY
 INFURA_KEY=YOUR-INFURA-KEY
 ```
-## Compile & Deploy
+## Compilation & Deployment
 Compile the contract:
 ```
 npx hardhat compile
